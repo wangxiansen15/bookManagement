@@ -1,0 +1,42 @@
+Arguments: 
+  C:\dev\nodejs\node.exe C:\dev\nodejs\node_modules\yarn\bin\yarn.js add mysqljs/mysql
+
+PATH: 
+  D:\ProjectDocuments\bookmanagementhoutai\node_modules\.bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;C:\dev\nvm;C:\Program Files\nodejs;C:\Users\15011\AppData\Local\Microsoft\WindowsApps;C:\Users\15011\IntelliJ IDEA 2018.3.3\bin;D:\WebStorm 2019.2\bin;C:\dev\nvm;C:\dev\nodejs;D:\JavaJDK\bin;D:\software\SQL2008\SQL 2008  R2\Evaluation\100\Tools\Binn\;D:\software\SQL2008\SQL 2008  R2\Evaluation\100\DTS\Binn\;D:\software\SQL2008\SQL 2008  R2\Evaluation\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;D:\software\mysql\mysql-8.0.17-winx64\mysql-8.0.17-winx64\bin;C:\Users\15011\AppData\Local\Microsoft\WindowsApps;C:\Users\15011\IntelliJ IDEA 2018.3.3\bin;;D:\WebStorm 2019.2\bin;;C:\dev\nvm;C:\dev\nodejs;C:\dev\nvm;D:\software\mySql\mysql-8.0.20-winx64\mysql-8.0.20-winx64\bin;
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOENT raw.githubusercontent.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+
+npm manifest: 
+  {
+    "name": "bookmanagementhoutai",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ./bin/www"
+    },
+    "dependencies": {
+      "cookie-parser": "~1.4.4",
+      "debug": "~2.6.9",
+      "express": "~4.16.1",
+      "http-errors": "~1.6.3",
+      "morgan": "~1.9.1",
+      "pug": "2.0.0-beta11"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
