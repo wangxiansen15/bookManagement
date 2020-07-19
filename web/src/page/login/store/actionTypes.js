@@ -1,0 +1,1 @@
+export const UPDOWN_STATUS = 'login/UPDOWN_STATUS';
